@@ -14,14 +14,14 @@
 <body>
     <main class="container">
         <div class="container__top">
-            <h1>SpamSniper</h1>
+            <img src="assets/img/spam-spider.logo.jpg" alt="">
+            <h1>Spam Spider</h1>
         </div>
 
         <div class="container__bottom">
             <div class="container__bottom__top">
                 <div class="container__bottom__top__left">
-                    <input id="inputText" placeholder="Busque ou escaneie uma URL"
-                        onkeydown="checkEnter(event)"></input>
+                    <input id="inputText" placeholder="Busque ou escaneie uma URL" onkeydown="checkEnter(event)"></input>
                 </div>
 
                 <div class="container__bottom__top__right">
@@ -39,12 +39,14 @@
             </div>
 
             <div class="container__bottom__bottom">
-                <p id="result"></p>
+                <div id="result-container">
+                </div>
             </div>
         </div>
     </main>
 
     <script src="./assets/scripts/model.js"></script>
+    <script src="./assets/scripts/url-verifier.js"></script>
 </body>
 
 </html>
