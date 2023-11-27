@@ -12,10 +12,21 @@ async function classifySpam() {
         const result = await response.json();
         displayResults(result);
     } else {
-        console.error('Erro na requisição:', response.status);
+        displayError();
     }
 }
 
+
+function displayError() {
+    const resultContainer = document.getElementById("result-container");
+    resultContainer.innerHTML = `
+        <div class="result-item" style="border: 2px solid red;">
+            <p>Erro ao verificar a URL</p>
+            <img src="/assets/img/error.png" alt="Erro">
+        </div>
+    `;
+
+}
 function displayResults(result) {
     const resultContainer = document.getElementById("result-container");
     resultContainer.innerHTML = `
