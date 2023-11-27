@@ -2,6 +2,8 @@
 
 Verifique URLs para detectar a possibilidade de exitência de algum malware e outras brechas.
 
+
+
 ## Índice
 
 - [Objetivo](##objetivo)
@@ -29,6 +31,15 @@ Verifique URLs para detectar a possibilidade de exitência de algum malware e ou
 git clone git@github.com:brunohnsouza/spam-spider-front.git
 cd spam-spider-front
 ```
+
+## Time
+
+- [Edvaldo Vitor](https://github.com/edvaldovitor250)
+- [Arthur Morais](https://github.com/arthur-morais/)
+- [Denis Gabriel](https://github.com/DenisGabriel017)
+- [Walter Borges](https://github.com/wabpe)
+- [Ednaldo Luiz](https://github.com/EdnaldoLuiz)
+- [Bruno Henrique](https://github.com/brunohnsouza)
 
 ## Licença
 
