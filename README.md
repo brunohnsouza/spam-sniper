@@ -9,6 +9,7 @@ Verifique URLs para detectar a possibilidade de exitência de algum malware e ou
 - [Objetivo](##objetivo)
 - [Ferramentas](##ferramentas)
 - [Instalação](##instalação)
+- [Time](##time)
 - [Licença](##licença)
 
 ## Objetivo
