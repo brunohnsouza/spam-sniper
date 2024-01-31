@@ -1,6 +1,6 @@
 # Spam Spider (Front-End) 🕷️
 
-Verifique URLs para detectar a possibilidade de exitência de algum malware e outras brechas.
+Verifique URLs para detectar a possibilidade de existência de algum malware e outras brechas.
 
 
 
